@@ -1,0 +1,6 @@
+@Birthday_Remainder_Backend_HostAddress = http://localhost:5286
+
+GET {{Birthday_Remainder_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
