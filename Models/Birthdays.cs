@@ -7,13 +7,13 @@ namespace Birthday_Remainder_Backend.Models
 {
     public class Birthdays
     {
-        public int Id;
+        public int Id { get; set; }
 
-        public string Names;
+        public string Names { get; set; } = " ";
 
-        public int age;
+        public int Age { get; set; }
 
-        public 
+        public byte[] Images { get; set; }
 
     }
 }
